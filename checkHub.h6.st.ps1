@@ -8,8 +8,8 @@ return $theHash.ToLower();
 # Declare variables
 $stURL = "https://graph-eu01-euwest1.api.smartthings.com/api/smartapps/installations/";
 
-$logLocation = "c:\scripts\devices.h6.st.log";
 $scriptLocation = "c:\scripts\";
+$logLocation = -join ($scriptLocation,"devices.h6.st.log");
 $newUrl = -join ($scriptLocation,"devices.h6.st.csv");
 $oldUrl = -join ($scriptLocation,"devices.h6.st.old.csv");
 
